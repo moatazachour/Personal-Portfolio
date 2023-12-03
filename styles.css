@@ -9,11 +9,50 @@ html {
 }
 
 body {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inconsolata", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #474747;                   
+  background: #f7f7f7;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   gap: 6.8rem;
+}
+
+.nav {
+  border-bottom: 1px solid #fff;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  gap: 2.2rem;
+
+}
+
+.nav__list__link {
+  display: flex;
+  padding: 0.1rem 3.6133rem 0.1rem 3.9347rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  text-align: center;
+  font-size: 2.27rem;
+  line-height: 66px; /* 290.749% */
+  letter-spacing: 2.833px;
+  text-decoration: none;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
 }
