@@ -9,19 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&family=Inconsolata:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Personal Portfolio</title>
   </head>
   <body>
     <main class="main">
       <nav class="nav">
-        <ul class="nav__list">
-          <li><a class="nav__list__link" href="index.html">Home</a></li>
-          <li><a class="nav__list__link" href="#">Resume</a></li>
-          <li><a class="nav__list__link" href="#">Projects</a></li>
-        </ul>
+        <div class="nav__list">
+          <a class="nav__list__link" href="index.html">Home</a>
+          <a class="nav__list__link" href="#">Resume</a>
+          <a class="nav__list__link" href="#">Projects</a>
+        </div>
       </nav>
-      <section class="about-me"></section>
+      <section class="about-me">
+        <div class="about-me__content"></div>
+        <div >
+          <img class="about-me__img" src="src/img/myimg.png" alt="My image" />
+        </div>
+      </section>
     </main>
   </body>
 </html>
